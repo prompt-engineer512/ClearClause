@@ -1,6 +1,6 @@
 import { AnalysisResult, ClauseItem, RiskLevel, ScoreSet, PolicyVersionChange } from '../types';
 
-export const DEFAULT_N8N_PRODUCTION_WEBHOOK_URL = 'PASTE_MY_N8N_PRODUCTION_WEBHOOK_URL_HERE';
+export const DEFAULT_N8N_PRODUCTION_WEBHOOK_URL = 'https://maltamix8.app.n8n.cloud/webhook/clearclause/analyze';
 const N8N_WEBHOOK_KEY = 'clearclause_n8n_webhook_url';
 
 export interface AnalysisRequest {

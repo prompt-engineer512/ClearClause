@@ -15,9 +15,12 @@ export const Footer: React.FC<FooterProps> = ({ setActivePage }) => {
           
           {/* Brand & Subtitle */}
           <div className="flex items-center gap-3">
-            <div className="flex items-center justify-center w-8 h-8 rounded-xl bg-slate-900 border border-teal-500/30 text-teal-400">
-              <ShieldAlert className="w-4 h-4" />
-            </div>
+            <img
+              src="/logo.png"
+              alt="ClearClause Logo"
+              className="w-8 h-8 rounded-lg object-contain"
+              referrerPolicy="no-referrer"
+            />
             <div>
               <span className="font-bold text-white tracking-tight font-['Space_Grotesk'] text-base">
                 Clear<span className="text-teal-400">Clause</span>

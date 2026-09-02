@@ -42,9 +42,12 @@ export const Navbar: React.FC<NavbarProps> = ({
             }}
             className="flex items-center gap-2.5 text-left group focus:outline-none cursor-pointer"
           >
-            <div className="w-6 h-6 rounded bg-[#3b82f6] text-white flex items-center justify-center font-bold text-xs shadow-sm group-hover:bg-blue-600 transition-colors">
-              <Shield className="w-3.5 h-3.5" />
-            </div>
+            <img
+              src="/logo.png"
+              alt="ClearClause Logo"
+              className="w-7 h-7 rounded-md object-contain"
+              referrerPolicy="no-referrer"
+            />
             <div className="flex items-center gap-2">
               <span className="font-bold text-lg tracking-tight text-white font-['Space_Grotesk']">
                 ClearClause
